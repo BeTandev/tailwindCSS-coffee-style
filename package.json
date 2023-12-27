@@ -1,0 +1,15 @@
+{
+  "name": "tailwind_hoc",
+  "version": "1.0.0",
+  "description": "betan.com",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/input.css -o ./public/output.css --watch"
+  },
+  "keywords": [],
+  "author": "betan.com",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.0"
+  }
+}
