@@ -34,6 +34,9 @@ module.exports = {
       },
       backgroundImage:{
         'slider-bg': 'url("./img/hinhnenslider.jpg")'
+      },
+      screens: {
+        'xs': '480px',
       }
     },
   },
