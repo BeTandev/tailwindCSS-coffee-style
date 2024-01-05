@@ -8,10 +8,13 @@ module.exports = {
       },
       colors: {
         'coffee': {
-          50: 'E8D6D0',
+          50: '#E8D6D0',
           200: '#C89F94',
           400: '#A25F4B',
           600: '#744838'
+        },
+        'ct-gray':{
+          50: '#F6F6F6'
         }
       },
       keyframes:{
