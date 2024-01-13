@@ -37,3 +37,7 @@
 .ct-button {
   @apply text-center tracking-wider py-4 px-6 text-sm font-semibold cursor-pointer hover:bg-opacity-90;
 }
+
+.ct-submit-button{
+  @apply bg-black text-white w-max py-4 px-6 uppercase text-sm font-medium tracking-widest hover:bg-slate-600 cursor-pointer transition-all duration-500 mx-auto md:mx-0
+}
