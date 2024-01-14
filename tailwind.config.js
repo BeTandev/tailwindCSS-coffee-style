@@ -15,6 +15,9 @@ module.exports = {
         },
         'ct-gray':{
           50: '#F6F6F6'
+        },
+        'ct-blackblue':{
+          900: '#1d1f2e'
         }
       },
       keyframes:{
