@@ -41,3 +41,21 @@
 .ct-submit-button{
   @apply bg-black text-white w-max py-4 px-6 uppercase text-sm font-medium tracking-widest hover:bg-slate-600 cursor-pointer transition-all duration-500 mx-auto md:mx-0
 }
+
+
+/* Content Post Css */
+.title-content-block{
+  @apply text-3xl mb-4 text-black;
+}
+.second-title-content-block{
+  @apply text-2xl mb-4 text-black;
+}
+.content-block{
+  @apply text-gray-400 leading-7 mb-4;
+}
+.highlight-content-block{
+  @apply border-l-2 border-b-2 border-opacity-20 border-coffee-400 px-6 py-8 text-center text-xl text-coffee-400 leading-8 mb-4;
+}
+.content-img-block{
+  @apply w-full h-[492px] bg-cover bg-no-repeat bg-center mb-4;
+}
