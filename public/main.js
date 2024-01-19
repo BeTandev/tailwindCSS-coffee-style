@@ -13,3 +13,24 @@ document.addEventListener("click", (e) => {
     }
   }
 });
+
+
+const sliderPoint1 = document.getElementById("slider-point-1")
+const sliderPoint2 = document.getElementById("slider-point-2")
+const sliderImage1 = document.getElementById("slider-image-1")
+const sliderImage2 = document.getElementById("slider-image-2")
+
+sliderPoint2.addEventListener("click", (e) => {
+  sliderImage1.style.transform = `translateX(-880px)`;
+  sliderImage2.style.transform = `translateX(-880px)`;
+  sliderPoint2.classList.add("bg-slate-600")
+  sliderPoint1.classList.remove("bg-slate-600")
+  sliderPoint1.classList.add("bg-slate-300")
+})
+sliderPoint1.addEventListener("click", (e) => {
+  sliderImage1.style.transform = `translateX(0px)`;
+  sliderImage2.style.transform = `translateX(0px)`;
+  sliderPoint1.classList.add("bg-slate-600")
+  sliderPoint2.classList.remove("bg-slate-600")
+  sliderPoint2.classList.add("bg-slate-300")
+})
