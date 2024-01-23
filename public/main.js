@@ -14,6 +14,16 @@ document.addEventListener("click", (e) => {
   }
 });
 
+const openCart = document.getElementById("open-cart")
+const closeCart = document.getElementById("close-cart")
+const cart = document.getElementById("cart")
+openCart.addEventListener("click", () => {
+  cart.classList.toggle('hidden')
+})
+closeCart.addEventListener("click", () =>{
+  cart.classList.toggle("hidden")
+})
+
 
 const sliderPoint1 = document.getElementById("slider-point-1")
 const sliderPoint2 = document.getElementById("slider-point-2")
